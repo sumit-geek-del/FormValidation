@@ -1,0 +1,52 @@
+.form_container{
+    display: flex;
+    margin-top:6rem;
+    padding: 3rem;
+    background: #c31432; 
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    background: linear-gradient(to right, #240b36, #c31432);
+
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius:2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.form_container form label{
+    font-size:1.8rem;
+    font-weight: 600;
+    text-transform:capitalize;
+}
+.form_container form input{
+    width:20rem;
+    padding:0.6rem;
+    border-radius: 2rem;
+    outline:none !important;
+    font-size:1.5rem;
+    border: 0.2rem solid black;
+}
+::placeholder{
+    font-size:1.3rem;
+    color:#072227;
+}
+.btn{
+    margin-top:2rem;
+    margin-left: 7rem;
+    font-size: 1.4rem;
+    padding:1rem 1.2rem;
+    border: 0;
+    border-radius:1.3rem;
+    
+}
+#showPassword .fa{
+    position: absolute;
+    top: 408px;
+    left: 829px;
+    cursor:pointer;
+}
+.form_inner_container{
+    background:#fff;
+    padding:3.6rem;
+    border-radius: 2.4rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
